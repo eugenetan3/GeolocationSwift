@@ -14,6 +14,7 @@
 		8D6B404323F51A6300F71E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B404223F51A6300F71E74 /* Assets.xcassets */; };
 		8D6B404623F51A6300F71E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B404423F51A6300F71E74 /* LaunchScreen.storyboard */; };
 		8D6B405123F51A6300F71E74 /* GeolocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B405023F51A6300F71E74 /* GeolocationTests.swift */; };
+		8D6B405D23F52C1700F71E74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6B405C23F52C1700F71E74 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8D6B404C23F51A6300F71E74 /* GeolocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeolocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B405023F51A6300F71E74 /* GeolocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationTests.swift; sourceTree = "<group>"; };
 		8D6B405223F51A6300F71E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6B405C23F52C1700F71E74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6B405D23F52C1700F71E74 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 				8D6B403823F51A6300F71E74 /* Geolocation */,
 				8D6B404F23F51A6300F71E74 /* GeolocationTests */,
 				8D6B403723F51A6300F71E74 /* Products */,
+				8D6B405B23F52C1700F71E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +101,14 @@
 				8D6B405223F51A6300F71E74 /* Info.plist */,
 			);
 			path = GeolocationTests;
+			sourceTree = "<group>";
+		};
+		8D6B405B23F52C1700F71E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B405C23F52C1700F71E74 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
